@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tw.com.abc.mytoast.MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="直接顯示Toast1"
+        android:onClick="toast1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="進階做法"
+        android:onClick="toast2"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自訂Toast"
+        android:onClick="toast3"
+        />
+
+</LinearLayout>
